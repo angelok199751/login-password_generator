@@ -3,7 +3,7 @@ import { createTheme } from '@mui/material/styles';
 const theme = createTheme({
   palette: {
     background: {
-      default: '#f5f0e6', // очень светлый бежевый фон страницы
+      default: '#fff9eeff', // очень светлый бежевый фон страницы
     },
     text: {
       primary: '#3a3a36', // светло-чёрный, чуть бежеватый цвет текста
