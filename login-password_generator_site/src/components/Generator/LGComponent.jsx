@@ -58,14 +58,14 @@ export const LoginGeneration = () => {
         label="Включить цифры"
         checked={useDigits}
         onChange={setUseDigits}
-        id="checkbox-digits-login"
+        testId="checkbox-digits-login"
       />
 
       <CustomCheckbox
         label="Включить спецсимволы"
         checked={useSpecialChars}
         onChange={setUseSpecialChars}
-        id="checkbox-special-login"
+        testId="checkbox-special-login"
       />
 
       <Button
@@ -73,7 +73,7 @@ export const LoginGeneration = () => {
         color="primary"
         onClick={handleGenerate}
         sx={{ alignSelf: "flex-start", mt: 1 }}
-        id="generate-login-btn"
+        testId="generate-login-btn"
       >
         Сгенерировать логин
       </Button>
