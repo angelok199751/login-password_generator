@@ -9,8 +9,8 @@ test.describe('Базовая функциональность генерато�
 
   test('002 - Генератор отображает поля для логина и пароля', async ({ page }) => {
     await page.goto('https://login-password-generator.vercel.app/');
-    await expect(page.getByTestId('login-field')).toBeVisible();
-    await expect(page.getByTestId('password-field')).toBeVisible();
+    await expect(page.locator('#«r2»')).toBeVisible();
+    await expect(page.locator('#«r6»')).toBeVisible();
 
   });
 

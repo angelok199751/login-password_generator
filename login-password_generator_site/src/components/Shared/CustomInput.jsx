@@ -1,10 +1,11 @@
 import { TextField } from "@mui/material";
 
-export const CustomInput = ({ label, value, InputProps }) => {
+export const CustomInput = ({ label, value, InputProps, id }) => {
   return (
     <TextField
       fullWidth
       label={label}
+      id={id}
       variant="outlined"
       value={value}
       margin="normal"
