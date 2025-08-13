@@ -2,8 +2,6 @@ import { Slider, Typography } from "@mui/material";
 import { useId } from "react";
 
 export const CustomSlider = ({ value, onChange, min = 6, max = 24, label = "Длина пароля", id }) => {
-  const generatedId = useId();
-  const sliderId = id || generatedId;
   return (
     <div>
       <Typography gutterBottom>
@@ -11,7 +9,7 @@ export const CustomSlider = ({ value, onChange, min = 6, max = 24, label = "Дл
       </Typography>
       <Slider
         value={value}
-        id={sliderId}
+        id={id}
         onChange={(e, newValue) => onChange(newValue)}
         min={min}
         max={max}

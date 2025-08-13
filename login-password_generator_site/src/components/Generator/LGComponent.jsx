@@ -82,7 +82,7 @@ export const LoginGeneration = () => {
     <CustomInput
       label="Логин"
       value={login}
-      id="login-field"
+      
       InputProps={{
         endAdornment: (
           <InputAdornment position="end">
@@ -92,7 +92,7 @@ export const LoginGeneration = () => {
         readOnly: true,
       }}
       sx={{ mt: 0.1 }}
-      
+      id="login-field"
     />
   </Box>
 );

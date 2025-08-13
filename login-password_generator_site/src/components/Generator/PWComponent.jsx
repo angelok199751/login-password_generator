@@ -41,7 +41,7 @@ export const PasswordGeneration = () => {
         min={6}
         max={24}
         label="Длина пароля"
-        data-testid="slider-length"
+        id="slider-length"
       />
 
       <Box sx={{ display: "flex", flexDirection: "column", gap: 0.5, alignItems: "flex-start", mt: 1 }}>
@@ -49,25 +49,25 @@ export const PasswordGeneration = () => {
           label="Заглавные буквы"
           checked={useUppercase}
           onChange={setUseUppercase}
-          data-testid="checkbox-uppercase"
+          id="checkbox-uppercase"
         />
         <CustomCheckbox
           label="Строчные буквы"
           checked={useLowercase}
           onChange={setUseLowercase}
-          data-testid="checkbox-lowercase"
+          id="checkbox-lowercase"
         />
         <CustomCheckbox
           label="Цифры"
           checked={useDigits}
           onChange={setUseDigits}
-          data-testid="checkbox-digits"
+          id="checkbox-digits-password"
         />
         <CustomCheckbox
           label="Спецсимволы"
           checked={useSpecialChars}
           onChange={setUseSpecialChars}
-          data-testid="checkbox-special"
+          id="checkbox-special"
         />
 
         <Button
@@ -75,7 +75,7 @@ export const PasswordGeneration = () => {
           color="primary"
           onClick={handleGenerate}
           sx={{ mt: 1, alignSelf: "flex-start" }}
-          data-testid="generate-btn"
+          id="generate-btn"
         >
           Сгенерировать пароль
         </Button>
@@ -92,7 +92,7 @@ export const PasswordGeneration = () => {
           ),
         }}
         sx={{ mt: 2 }}
-        data-testid="password-field"
+        id="password-field"
       />
     </Box>
   );
