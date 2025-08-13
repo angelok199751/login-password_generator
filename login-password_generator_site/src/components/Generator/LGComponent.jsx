@@ -25,7 +25,7 @@ export const LoginGeneration = () => {
   return (
   <Box sx={{ mb: 0.5 }}>
     <h2 style={{ marginBottom: 8, fontSize: '22px', marginTop: 0 }}>
-    Генератор логина
+    Генератор логина!
   </h2>
 
     <Box sx={{ display: "flex", flexDirection: "column", alignItems: "flex-start", gap: "4px" }}>
