@@ -33,7 +33,7 @@ export const LoginGeneration = () => {
         label="Два имени (например, Jhoe_Dow)"
         checked={useTwoNames}
         onChange={setUseTwoNames}
-        data-testid="checkbox-two-names"
+        id="checkbox-two-names"
       />
 
       {useTwoNames && (
@@ -45,7 +45,6 @@ export const LoginGeneration = () => {
             value={separator}
             label="Разделитель"
             onChange={(e) => setSeparator(e.target.value)}
-            data-testid="select-separator"
           >
             <MenuItem value="_">_ (подчёркивание)</MenuItem>
             <MenuItem value="-">- (дефис)</MenuItem>
@@ -59,14 +58,14 @@ export const LoginGeneration = () => {
         label="Включить цифры"
         checked={useDigits}
         onChange={setUseDigits}
-        data-testid="checkbox-digits-login"
+        id="checkbox-digits-login"
       />
 
       <CustomCheckbox
         label="Включить спецсимволы"
         checked={useSpecialChars}
         onChange={setUseSpecialChars}
-        data-testid="checkbox-special-login"
+        id="checkbox-special-login"
       />
 
       <Button
@@ -74,7 +73,7 @@ export const LoginGeneration = () => {
         color="primary"
         onClick={handleGenerate}
         sx={{ alignSelf: "flex-start", mt: 1 }}
-        data-testid="generate-login-btn"
+        id="generate-login-btn"
       >
         Сгенерировать логин
       </Button>
@@ -83,7 +82,7 @@ export const LoginGeneration = () => {
     <CustomInput
       label="Логин"
       value={login}
-      data-testid="login-field"
+      id="login-field"
       InputProps={{
         endAdornment: (
           <InputAdornment position="end">
