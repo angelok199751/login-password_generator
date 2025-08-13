@@ -4,13 +4,14 @@ test.describe('Базовая функциональность генерато�
 
   test('001 - Страница сайта успешно загружается', async ({ page }) => {
     await page.goto('https://login-password-generator.vercel.app/');
-    await expect(page).toHaveTitle(/Login Password Generator/i);
+    await expect(page).toHaveTitle('Генератор логина/пароля');
   });
 
   test('002 - Генератор отображает поля для логина и пароля', async ({ page }) => {
     await page.goto('https://login-password-generator.vercel.app/');
-    await expect(page.locator('#login')).toBeVisible();
-    await expect(page.locator('#password')).toBeVisible();
+    await expect(page.getByTestId('login-field')).toBeVisible();
+    await expect(page.getByTestId('password-field')).toBeVisible();
+
   });
 
   test('003 - Есть кнопка генерации', async ({ page }) => {
