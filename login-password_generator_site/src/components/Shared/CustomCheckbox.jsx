@@ -1,6 +1,6 @@
 import { Checkbox as MuiCheckbox, FormControlLabel } from "@mui/material";
 
-export const CustomCheckbox = ({ label, checked, onChange, testId }) => {
+export const CustomCheckbox = ({ label, checked, onChange, id }) => {
   return (
     <FormControlLabel
       sx={{ margin: 0 }}
@@ -9,9 +9,7 @@ export const CustomCheckbox = ({ label, checked, onChange, testId }) => {
           checked={checked}
           onChange={(e) => onChange(e.target.checked)}
           sx={{ paddingY: 0 }}
-          inputProps={{
-            'data-testid': testId,
-          }}
+          id={id}
         />
       }
       label={label}

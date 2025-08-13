@@ -25,7 +25,7 @@ export const LoginGeneration = () => {
   return (
   <Box sx={{ mb: 0.5 }}>
     <h2 style={{ marginBottom: 8, fontSize: '22px', marginTop: 0 }}>
-    Генератор логина!
+    Генератор логина! проверка деплоя
   </h2>
 
     <Box sx={{ display: "flex", flexDirection: "column", alignItems: "flex-start", gap: "4px" }}>
@@ -33,7 +33,7 @@ export const LoginGeneration = () => {
         label="Два имени (например, Jhoe_Dow)"
         checked={useTwoNames}
         onChange={setUseTwoNames}
-        testId="checkbox-two-names"
+        id="checkbox-two-names"
       />
 
       {useTwoNames && (
@@ -58,14 +58,14 @@ export const LoginGeneration = () => {
         label="Включить цифры"
         checked={useDigits}
         onChange={setUseDigits}
-        testId="checkbox-digits-login"
+        id="checkbox-digits-login"
       />
 
       <CustomCheckbox
         label="Включить спецсимволы"
         checked={useSpecialChars}
         onChange={setUseSpecialChars}
-        testId="checkbox-special-login"
+        id="checkbox-special-login"
       />
 
       <Button
@@ -73,7 +73,7 @@ export const LoginGeneration = () => {
         color="primary"
         onClick={handleGenerate}
         sx={{ alignSelf: "flex-start", mt: 1 }}
-        testId="generate-login-btn"
+        id="generate-login-btn"
       >
         Сгенерировать логин
       </Button>
