@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1283","Страница сайта успешно загружается","webkit","Mon Aug 11 03:38:09 MSK 2025","passed","Mon Aug 11 03:38:10 MSK 2025","","goToPage.spec.ts","",""
+"","1132","Страница сайта успешно загружается","chromium","Mon Aug 11 03:37:47 MSK 2025","passed","Mon Aug 11 03:37:48 MSK 2025","","goToPage.spec.ts","",""
+"","1925","Страница сайта успешно загружается","firefox","Mon Aug 11 03:37:58 MSK 2025","passed","Mon Aug 11 03:38:00 MSK 2025","","goToPage.spec.ts","",""

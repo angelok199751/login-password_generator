@@ -1,0 +1,5 @@
+node_modules
+.git
+allure-results
+allure-report
+dist

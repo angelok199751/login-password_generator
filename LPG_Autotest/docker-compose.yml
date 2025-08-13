@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  tests:
+    build: .
+    volumes:
+      - ./:/app
+      - ./allure-results:/app/allure-results
+      - ./allure-report:/app/allure-report
+      - .:/tests
+    container_name: lpg_tests
+    environment:
+      - CI=true
+    command: /bin/bash -lc "npx playwright test --reporter=allure-playwright && allure generate allure-results --clean -o allure-report"
