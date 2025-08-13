@@ -5,12 +5,14 @@ test.describe('Базовая функциональность генерато�
   test('001 - Страница сайта успешно загружается', async ({ page }) => {
     await page.goto('https://login-password-generator.vercel.app/');
     await expect(page).toHaveTitle('Генератор логина/пароля');
+
   });
 
   test('002 - Генератор отображает поля для логина и пароля', async ({ page }) => {
     await page.goto('https://login-password-generator.vercel.app/');
     await expect(page.locator('#«r2»')).toBeVisible();
     await expect(page.locator('#«r6»')).toBeVisible();
+    await expect(page.getByTestId('checkbox-digits-login')).toBeVisible();
 
   });
 
@@ -18,6 +20,7 @@ test.describe('Базовая функциональность генерато�
     await page.goto('https://login-password-generator.vercel.app/');
     await expect(page.locator('#generate-btn')).toBeVisible();
   });
+
 
   test('004 - При нажатии на кнопку генерируются новые логин и пароль', async ({ page }) => {
     await page.goto('https://login-password-generator.vercel.app/');

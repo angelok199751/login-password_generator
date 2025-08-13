@@ -33,7 +33,7 @@ export const LoginGeneration = () => {
         label="Два имени (например, Jhoe_Dow)"
         checked={useTwoNames}
         onChange={setUseTwoNames}
-        id="checkbox-two-names"
+        testId="checkbox-two-names"
       />
 
       {useTwoNames && (
