@@ -1,5 +1,5 @@
 import { Slider, Typography } from "@mui/material";
-import { useId } from "react";
+
 
 export const CustomSlider = ({ value, onChange, min = 6, max = 24, label = "Длина пароля", id }) => {
   return (

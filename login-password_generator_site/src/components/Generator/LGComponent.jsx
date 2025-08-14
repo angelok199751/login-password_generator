@@ -86,7 +86,7 @@ export const LoginGeneration = () => {
       InputProps={{
         endAdornment: (
           <InputAdornment position="end">
-            <CopyButton text={login} />
+            <CopyButton text={login} id={"copy-login"} />
           </InputAdornment>
         ),
         readOnly: true,

@@ -87,7 +87,7 @@ export const PasswordGeneration = () => {
         InputProps={{
           endAdornment: (
             <InputAdornment position="end">
-              <CopyButton text={password} />
+              <CopyButton text={password} id={"copy-password"}/>
             </InputAdornment>
           ),
         }}
