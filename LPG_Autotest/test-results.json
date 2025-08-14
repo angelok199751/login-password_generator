@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 3
+      "actualWorkers": 6
     },
     "preserveOutput": "always",
     "reporter": [
@@ -30,7 +30,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 3
+          "actualWorkers": 6
         },
         "id": "chromium",
         "name": "chromium",
@@ -46,7 +46,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 3
+          "actualWorkers": 6
         },
         "id": "firefox",
         "name": "firefox",
@@ -62,7 +62,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 3
+          "actualWorkers": 6
         },
         "id": "webkit",
         "name": "webkit",
@@ -83,123 +83,936 @@
   },
   "suites": [
     {
-      "title": "goToPage.spec.ts",
-      "file": "goToPage.spec.ts",
+      "title": "baseFunction.spec.ts",
+      "file": "baseFunction.spec.ts",
       "column": 0,
       "line": 0,
-      "specs": [
+      "specs": [],
+      "suites": [
         {
-          "title": "Страница сайта успешно загружается",
-          "ok": true,
-          "tags": [],
-          "tests": [
+          "title": "Базовая функциональность генератора",
+          "file": "baseFunction.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
             {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
+              "title": "001 - Страница сайта успешно загружается",
+              "ok": true,
+              "tags": [],
+              "tests": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 2214,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-08-11T10:20:23.792Z",
+                  "timeout": 30000,
                   "annotations": [],
-                  "attachments": []
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2768,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-14T16:55:10.508Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "status": "expected"
-            }
-          ],
-          "id": "dc178e19ec1dbfc42c67-800a1f817c112b359a43",
-          "file": "goToPage.spec.ts",
-          "line": 3,
-          "column": 5
-        },
-        {
-          "title": "Страница сайта успешно загружается",
-          "ok": true,
-          "tags": [],
-          "tests": [
+              "id": "ae1acdca87af11bd9707-ee8dc32575447723d882",
+              "file": "baseFunction.spec.ts",
+              "line": 6,
+              "column": 5
+            },
             {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
+              "title": "002 - Генератор отображает поля для логина и пароля",
+              "ok": true,
+              "tags": [],
+              "tests": [
                 {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
-                  "status": "passed",
-                  "duration": 1712,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-08-11T10:20:23.770Z",
+                  "timeout": 30000,
                   "annotations": [],
-                  "attachments": []
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 2770,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-14T16:55:10.550Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "status": "expected"
-            }
-          ],
-          "id": "dc178e19ec1dbfc42c67-ed74c5a73a39b6b960e4",
-          "file": "goToPage.spec.ts",
-          "line": 3,
-          "column": 5
-        },
-        {
-          "title": "Страница сайта успешно загружается",
-          "ok": true,
-          "tags": [],
-          "tests": [
+              "id": "ae1acdca87af11bd9707-dfb2344cdb291aa6a2d9",
+              "file": "baseFunction.spec.ts",
+              "line": 12,
+              "column": 5
+            },
             {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "webkit",
-              "projectName": "webkit",
-              "results": [
+              "title": "003 - Есть кнопка генерации логина",
+              "ok": true,
+              "tags": [],
+              "tests": [
                 {
-                  "workerIndex": 2,
-                  "parallelIndex": 2,
-                  "status": "passed",
-                  "duration": 2031,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-08-11T10:20:23.772Z",
+                  "timeout": 30000,
                   "annotations": [],
-                  "attachments": []
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 2676,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-14T16:55:10.536Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "status": "expected"
+              "id": "ae1acdca87af11bd9707-c02e47bb32fc6363ce9a",
+              "file": "baseFunction.spec.ts",
+              "line": 19,
+              "column": 5
+            },
+            {
+              "title": "004 - Есть кнопка генерации пароля",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 2688,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-14T16:55:10.567Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ae1acdca87af11bd9707-4a24ea57e751d629367c",
+              "file": "baseFunction.spec.ts",
+              "line": 25,
+              "column": 5
+            },
+            {
+              "title": "005 - При нажатии на кнопку генерируются новые логин и пароль",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 2870,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-14T16:55:10.537Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ae1acdca87af11bd9707-7937d3b6fcd9420da700",
+              "file": "baseFunction.spec.ts",
+              "line": 31,
+              "column": 5
+            },
+            {
+              "title": "006 - Логин соответствует ожидаемому формату",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 2798,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-14T16:55:10.555Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ae1acdca87af11bd9707-519b6ab215ca6396cf4a",
+              "file": "baseFunction.spec.ts",
+              "line": 48,
+              "column": 5
+            },
+            {
+              "title": "007 - Пароль соответствует ожидаемому формату",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1264,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-14T16:55:13.367Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ae1acdca87af11bd9707-b9c4e20108efe6d60dd6",
+              "file": "baseFunction.spec.ts",
+              "line": 56,
+              "column": 5
+            },
+            {
+              "title": "008 - Появляется подтверждение, что скопировано",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 6342,
+                      "error": {
+                        "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('.tooltip')\nExpected pattern: \u001b[32m/Скопировано/i\u001b[39m\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.tooltip')\u001b[22m\n",
+                        "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('.tooltip')\nExpected pattern: \u001b[32m/Скопировано/i\u001b[39m\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.tooltip')\u001b[22m\n\n    at C:\\Users\\Ангелина\\Desktop\\loginpasswordgenerator\\login-password_generator\\LPG_Autotest\\src\\ui\\tests\\baseFunction.spec.ts:73:25",
+                        "location": {
+                          "file": "C:\\Users\\Ангелина\\Desktop\\loginpasswordgenerator\\login-password_generator\\LPG_Autotest\\src\\ui\\tests\\baseFunction.spec.ts",
+                          "column": 25,
+                          "line": 73
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 71 |\u001b[39m   \u001b[36mawait\u001b[39m lpgPage\u001b[33m.\u001b[39mcopyLogin()\u001b[33m;\u001b[39m\n \u001b[90m 72 |\u001b[39m   \u001b[36mconst\u001b[39m tooltip \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'.tooltip'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 73 |\u001b[39m   \u001b[36mawait\u001b[39m expect(tooltip)\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/Скопировано/i\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 74 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 75 |\u001b[39m\n \u001b[90m 76 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Ангелина\\Desktop\\loginpasswordgenerator\\login-password_generator\\LPG_Autotest\\src\\ui\\tests\\baseFunction.spec.ts",
+                            "column": 25,
+                            "line": 73
+                          },
+                          "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('.tooltip')\nExpected pattern: \u001b[32m/Скопировано/i\u001b[39m\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.tooltip')\u001b[22m\n\n\n  71 |   await lpgPage.copyLogin();\n  72 |   const tooltip = page.locator('.tooltip');\n> 73 |   await expect(tooltip).toHaveText(/Скопировано/i);\n     |                         ^\n  74 | });\n  75 |\n  76 | });\n    at C:\\Users\\Ангелина\\Desktop\\loginpasswordgenerator\\login-password_generator\\LPG_Autotest\\src\\ui\\tests\\baseFunction.spec.ts:73:25"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-14T16:55:13.382Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\Ангелина\\Desktop\\loginpasswordgenerator\\login-password_generator\\LPG_Autotest\\test-results\\baseFunction-Базовая-функц-75ba4-дтверждение-что-скопировано-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Ангелина\\Desktop\\loginpasswordgenerator\\login-password_generator\\LPG_Autotest\\src\\ui\\tests\\baseFunction.spec.ts",
+                        "column": 25,
+                        "line": 73
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "ae1acdca87af11bd9707-9eb450ba5318886ffbb3",
+              "file": "baseFunction.spec.ts",
+              "line": 68,
+              "column": 5
+            },
+            {
+              "title": "001 - Страница сайта успешно загружается",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 2539,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-14T16:55:14.626Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ae1acdca87af11bd9707-7d4b143565ecba4f29fc",
+              "file": "baseFunction.spec.ts",
+              "line": 6,
+              "column": 5
+            },
+            {
+              "title": "002 - Генератор отображает поля для логина и пароля",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 2495,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-14T16:55:14.670Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ae1acdca87af11bd9707-f3b60cb5d4a324f3b5b0",
+              "file": "baseFunction.spec.ts",
+              "line": 12,
+              "column": 5
+            },
+            {
+              "title": "003 - Есть кнопка генерации логина",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 2727,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-14T16:55:14.716Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ae1acdca87af11bd9707-40b5a98db4caf5652846",
+              "file": "baseFunction.spec.ts",
+              "line": 19,
+              "column": 5
+            },
+            {
+              "title": "004 - Есть кнопка генерации пароля",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 2609,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-14T16:55:14.751Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ae1acdca87af11bd9707-a0ba2995b57a92cce3e8",
+              "file": "baseFunction.spec.ts",
+              "line": 25,
+              "column": 5
+            },
+            {
+              "title": "005 - При нажатии на кнопку генерируются новые логин и пароль",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 2926,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-14T16:55:15.857Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ae1acdca87af11bd9707-8b0f4f71cd2b0da964bb",
+              "file": "baseFunction.spec.ts",
+              "line": 31,
+              "column": 5
+            },
+            {
+              "title": "006 - Логин соответствует ожидаемому формату",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 1721,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-14T16:55:17.699Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ae1acdca87af11bd9707-63cfa7e28aa749fdd61f",
+              "file": "baseFunction.spec.ts",
+              "line": 48,
+              "column": 5
+            },
+            {
+              "title": "007 - Пароль соответствует ожидаемому формату",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1782,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-14T16:55:18.266Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ae1acdca87af11bd9707-8c95553cab5ea762862e",
+              "file": "baseFunction.spec.ts",
+              "line": 56,
+              "column": 5
+            },
+            {
+              "title": "008 - Появляется подтверждение, что скопировано",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 4,
+                      "status": "failed",
+                      "duration": 6695,
+                      "error": {
+                        "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('.tooltip')\nExpected pattern: \u001b[32m/Скопировано/i\u001b[39m\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.tooltip')\u001b[22m\n",
+                        "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('.tooltip')\nExpected pattern: \u001b[32m/Скопировано/i\u001b[39m\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.tooltip')\u001b[22m\n\n    at C:\\Users\\Ангелина\\Desktop\\loginpasswordgenerator\\login-password_generator\\LPG_Autotest\\src\\ui\\tests\\baseFunction.spec.ts:73:25",
+                        "location": {
+                          "file": "C:\\Users\\Ангелина\\Desktop\\loginpasswordgenerator\\login-password_generator\\LPG_Autotest\\src\\ui\\tests\\baseFunction.spec.ts",
+                          "column": 25,
+                          "line": 73
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 71 |\u001b[39m   \u001b[36mawait\u001b[39m lpgPage\u001b[33m.\u001b[39mcopyLogin()\u001b[33m;\u001b[39m\n \u001b[90m 72 |\u001b[39m   \u001b[36mconst\u001b[39m tooltip \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'.tooltip'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 73 |\u001b[39m   \u001b[36mawait\u001b[39m expect(tooltip)\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/Скопировано/i\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 74 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 75 |\u001b[39m\n \u001b[90m 76 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Ангелина\\Desktop\\loginpasswordgenerator\\login-password_generator\\LPG_Autotest\\src\\ui\\tests\\baseFunction.spec.ts",
+                            "column": 25,
+                            "line": 73
+                          },
+                          "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('.tooltip')\nExpected pattern: \u001b[32m/Скопировано/i\u001b[39m\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.tooltip')\u001b[22m\n\n\n  71 |   await lpgPage.copyLogin();\n  72 |   const tooltip = page.locator('.tooltip');\n> 73 |   await expect(tooltip).toHaveText(/Скопировано/i);\n     |                         ^\n  74 | });\n  75 |\n  76 | });\n    at C:\\Users\\Ангелина\\Desktop\\loginpasswordgenerator\\login-password_generator\\LPG_Autotest\\src\\ui\\tests\\baseFunction.spec.ts:73:25"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-14T16:55:18.920Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\Ангелина\\Desktop\\loginpasswordgenerator\\login-password_generator\\LPG_Autotest\\test-results\\baseFunction-Базовая-функц-75ba4-дтверждение-что-скопировано-firefox\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Ангелина\\Desktop\\loginpasswordgenerator\\login-password_generator\\LPG_Autotest\\src\\ui\\tests\\baseFunction.spec.ts",
+                        "column": 25,
+                        "line": 73
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "ae1acdca87af11bd9707-8936e91b5bd0e211b2b2",
+              "file": "baseFunction.spec.ts",
+              "line": 68,
+              "column": 5
+            },
+            {
+              "title": "001 - Страница сайта успешно загружается",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 959,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-14T16:55:21.777Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ae1acdca87af11bd9707-75ac75cf40a8d4a30eb8",
+              "file": "baseFunction.spec.ts",
+              "line": 6,
+              "column": 5
+            },
+            {
+              "title": "002 - Генератор отображает поля для логина и пароля",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 928,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-14T16:55:21.970Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ae1acdca87af11bd9707-9b8adfb4c4b87c75c191",
+              "file": "baseFunction.spec.ts",
+              "line": 12,
+              "column": 5
+            },
+            {
+              "title": "003 - Есть кнопка генерации логина",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1234,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-14T16:55:21.455Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ae1acdca87af11bd9707-27e3975e76198ab725d6",
+              "file": "baseFunction.spec.ts",
+              "line": 19,
+              "column": 5
+            },
+            {
+              "title": "004 - Есть кнопка генерации пароля",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 890,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-14T16:55:22.127Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ae1acdca87af11bd9707-5798abf80509e91b18c7",
+              "file": "baseFunction.spec.ts",
+              "line": 25,
+              "column": 5
+            },
+            {
+              "title": "005 - При нажатии на кнопку генерируются новые логин и пароль",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1677,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-14T16:55:22.482Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ae1acdca87af11bd9707-8c83518163f06e027139",
+              "file": "baseFunction.spec.ts",
+              "line": 31,
+              "column": 5
+            },
+            {
+              "title": "006 - Логин соответствует ожидаемому формату",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 1257,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-14T16:55:22.800Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ae1acdca87af11bd9707-3aa9467b9d02f972cb48",
+              "file": "baseFunction.spec.ts",
+              "line": 48,
+              "column": 5
+            },
+            {
+              "title": "007 - Пароль соответствует ожидаемому формату",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1757,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-14T16:55:22.805Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ae1acdca87af11bd9707-19b553fad4d13fc6a4b8",
+              "file": "baseFunction.spec.ts",
+              "line": 56,
+              "column": 5
+            },
+            {
+              "title": "008 - Появляется подтверждение, что скопировано",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "parallelIndex": 5,
+                      "status": "failed",
+                      "duration": 6040,
+                      "error": {
+                        "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('.tooltip')\nExpected pattern: \u001b[32m/Скопировано/i\u001b[39m\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.tooltip')\u001b[22m\n",
+                        "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('.tooltip')\nExpected pattern: \u001b[32m/Скопировано/i\u001b[39m\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.tooltip')\u001b[22m\n\n    at C:\\Users\\Ангелина\\Desktop\\loginpasswordgenerator\\login-password_generator\\LPG_Autotest\\src\\ui\\tests\\baseFunction.spec.ts:73:25",
+                        "location": {
+                          "file": "C:\\Users\\Ангелина\\Desktop\\loginpasswordgenerator\\login-password_generator\\LPG_Autotest\\src\\ui\\tests\\baseFunction.spec.ts",
+                          "column": 25,
+                          "line": 73
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 71 |\u001b[39m   \u001b[36mawait\u001b[39m lpgPage\u001b[33m.\u001b[39mcopyLogin()\u001b[33m;\u001b[39m\n \u001b[90m 72 |\u001b[39m   \u001b[36mconst\u001b[39m tooltip \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'.tooltip'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 73 |\u001b[39m   \u001b[36mawait\u001b[39m expect(tooltip)\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/Скопировано/i\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 74 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 75 |\u001b[39m\n \u001b[90m 76 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Ангелина\\Desktop\\loginpasswordgenerator\\login-password_generator\\LPG_Autotest\\src\\ui\\tests\\baseFunction.spec.ts",
+                            "column": 25,
+                            "line": 73
+                          },
+                          "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('.tooltip')\nExpected pattern: \u001b[32m/Скопировано/i\u001b[39m\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.tooltip')\u001b[22m\n\n\n  71 |   await lpgPage.copyLogin();\n  72 |   const tooltip = page.locator('.tooltip');\n> 73 |   await expect(tooltip).toHaveText(/Скопировано/i);\n     |                         ^\n  74 | });\n  75 |\n  76 | });\n    at C:\\Users\\Ангелина\\Desktop\\loginpasswordgenerator\\login-password_generator\\LPG_Autotest\\src\\ui\\tests\\baseFunction.spec.ts:73:25"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-14T16:55:23.045Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\Ангелина\\Desktop\\loginpasswordgenerator\\login-password_generator\\LPG_Autotest\\test-results\\baseFunction-Базовая-функц-75ba4-дтверждение-что-скопировано-webkit\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Ангелина\\Desktop\\loginpasswordgenerator\\login-password_generator\\LPG_Autotest\\src\\ui\\tests\\baseFunction.spec.ts",
+                        "column": 25,
+                        "line": 73
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "ae1acdca87af11bd9707-3bae2679f9958de1598c",
+              "file": "baseFunction.spec.ts",
+              "line": 68,
+              "column": 5
             }
-          ],
-          "id": "dc178e19ec1dbfc42c67-6c09af24799090fe083a",
-          "file": "goToPage.spec.ts",
-          "line": 3,
-          "column": 5
+          ]
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-08-11T10:20:22.866Z",
-    "duration": 3970.0550000000003,
-    "expected": 3,
+    "startTime": "2025-08-14T16:55:09.268Z",
+    "duration": 19856.23,
+    "expected": 21,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 3,
     "flaky": 0
   }
 }

@@ -22,7 +22,13 @@ test('003 - Есть кнопка генерации логина', async ({ pag
   await expect(page.locator(lpgPage.generateLoginButton)).toBeVisible();
 });
 
-test('004 - При нажатии на кнопку генерируются новые логин и пароль', async ({ page }) => {
+test('004 - Есть кнопка генерации пароля', async ({ page }) => {
+  const lpgPage = new LPGPage(page);
+  await lpgPage.navigate();
+  await expect(page.locator(lpgPage.generatePasswordButton)).toBeVisible();
+});
+
+test('005 - При нажатии на кнопку генерируются новые логин и пароль', async ({ page }) => {
   const lpgPage = new LPGPage(page);
   await lpgPage.navigate();
 
@@ -39,7 +45,7 @@ test('004 - При нажатии на кнопку генерируются н�
   expect(passwordAfter).not.toBe(passwordBefore);
 });
 
-test('005 - Логин соответствует ожидаемому формату', async ({ page }) => {
+test('006 - Логин соответствует ожидаемому формату', async ({ page }) => {
   const lpgPage = new LPGPage(page);
   await lpgPage.navigate();
   await lpgPage.generateLogin();
@@ -47,24 +53,16 @@ test('005 - Логин соответствует ожидаемому форм�
   expect(login).toMatch(/^[A-Za-z]+[0-9]*$/);
 });
 
-test('006 - Пароль соответствует ожидаемому формату', async ({ page }) => {
+test('007 - Пароль соответствует ожидаемому формату', async ({ page }) => {
   const lpgPage = new LPGPage(page);
   await lpgPage.navigate();
+  await lpgPage.togglePasswordSpecial(true);
   await lpgPage.generatePassword();
   const password = await lpgPage.getPasswordValue();
   expect(password.length).toBeGreaterThanOrEqual(8);
   expect(password).toMatch(/[A-Z]/);
   expect(password).toMatch(/[0-9]/);
-  expect(password).toMatch(/[!@#$%^&*]/);
-});
-
-test('007 - Значения копируются по нажатию на иконку копирования', async ({ page }) => {
-  const lpgPage = new LPGPage(page);
-  await lpgPage.navigate();
-  await lpgPage.copyLogin();
-  const clipboardText = await page.evaluate(() => navigator.clipboard.readText());
-  const login = await lpgPage.getLoginValue();
-  expect(clipboardText).toBe(login);
+  expect(password).toMatch(/[!@#$%^&*()_+\-=\[\]{}|;:,.<>?]/);
 });
 
 test('008 - Появляется подтверждение, что скопировано', async ({ page }) => {

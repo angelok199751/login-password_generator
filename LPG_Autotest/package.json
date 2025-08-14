@@ -9,14 +9,12 @@
     "ui-mode": "npx playwright test --ui",
     "codegen": "npx playwright codegen",
     "setup:docker": "node setup-docker.js",
-    "test:docker": "docker compose up --build -d",
-    "allure:generate": "allure generate ./allure-results --clean -o ./allure-report",
-    "copy-report": "rm -rf ./allure_static/* && cp -r ./allure-report/* ./allure_static/",
-    "deploy:allure": "vercel deploy allure_static --prod",
-    "test:json": "npx playwright test --reporter=json > test-results.json",
-    "notify": "node sendTelegram.js",
-    "test:notify": "npm run test:json && npm run notify",
-    "full-docker-deploy": "npm run test:docker && npm run allure:generate && npm run copy-report && npm run deploy:allure && npm run test:notify"
+  "test:docker": "docker compose up --build -d",
+  "allure:generate": "allure generate ./allure-results --clean -o ./allure_static",
+  "deploy:allure": "node deployVercel.js",
+  "test:json": "npx playwright test --reporter=json > test-results.json",
+  "notify": "node sendTelegram.js",
+  "full-docker-deploy": "npm run test:docker && npm run test:json && npm run allure:generate && npm run deploy:allure && npm run notify"
   },
   "keywords": [],
   "author": "",
@@ -27,6 +25,7 @@
     "@types/node": "^24.2.1",
     "allure-codeceptjs": "^3.3.3",
     "allure-playwright": "^3.3.3",
+    "cross-env": "^10.0.0",
     "typescript": "^5.9.2"
   },
   "dependencies": {
