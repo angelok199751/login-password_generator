@@ -26,7 +26,9 @@ export class LPGPage {
     this.page = page;
   }
   async navigate() {
-    await this.page.goto('https://login-password-generator-8329.vercel.app/');}
+    await this.page.goto('https://login-password-generator-8329.vercel.app/');
+  }
+
 async generateLogin() {
     await this.page.click(this.generateLoginButton);
   }
@@ -64,7 +66,6 @@ async generateLogin() {
     return await this.page.inputValue(this.loginField);
   }
 
-  // ПАРОЛЬ
   async generatePassword() {
     await this.page.click(this.generatePasswordButton);
   }

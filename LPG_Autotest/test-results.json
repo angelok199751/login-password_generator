@@ -111,12 +111,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2768,
+                      "duration": 2701,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-14T16:55:10.508Z",
+                      "startTime": "2025-08-19T19:15:57.827Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -127,7 +127,7 @@
               "id": "ae1acdca87af11bd9707-ee8dc32575447723d882",
               "file": "baseFunction.spec.ts",
               "line": 6,
-              "column": 5
+              "column": 1
             },
             {
               "title": "002 - Генератор отображает поля для логина и пароля",
@@ -145,12 +145,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 2770,
+                      "duration": 2573,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-14T16:55:10.550Z",
+                      "startTime": "2025-08-19T19:15:57.811Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -161,7 +161,7 @@
               "id": "ae1acdca87af11bd9707-dfb2344cdb291aa6a2d9",
               "file": "baseFunction.spec.ts",
               "line": 12,
-              "column": 5
+              "column": 1
             },
             {
               "title": "003 - Есть кнопка генерации логина",
@@ -179,12 +179,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 2676,
+                      "duration": 2494,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-14T16:55:10.536Z",
+                      "startTime": "2025-08-19T19:15:57.843Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -195,7 +195,7 @@
               "id": "ae1acdca87af11bd9707-c02e47bb32fc6363ce9a",
               "file": "baseFunction.spec.ts",
               "line": 19,
-              "column": 5
+              "column": 1
             },
             {
               "title": "004 - Есть кнопка генерации пароля",
@@ -213,12 +213,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 2688,
+                      "duration": 2423,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-14T16:55:10.567Z",
+                      "startTime": "2025-08-19T19:15:57.844Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -229,7 +229,7 @@
               "id": "ae1acdca87af11bd9707-4a24ea57e751d629367c",
               "file": "baseFunction.spec.ts",
               "line": 25,
-              "column": 5
+              "column": 1
             },
             {
               "title": "005 - При нажатии на кнопку генерируются новые логин и пароль",
@@ -247,12 +247,12 @@
                       "workerIndex": 4,
                       "parallelIndex": 4,
                       "status": "passed",
-                      "duration": 2870,
+                      "duration": 2559,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-14T16:55:10.537Z",
+                      "startTime": "2025-08-19T19:15:57.841Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -263,7 +263,7 @@
               "id": "ae1acdca87af11bd9707-7937d3b6fcd9420da700",
               "file": "baseFunction.spec.ts",
               "line": 31,
-              "column": 5
+              "column": 1
             },
             {
               "title": "006 - Логин соответствует ожидаемому формату",
@@ -281,12 +281,12 @@
                       "workerIndex": 5,
                       "parallelIndex": 5,
                       "status": "passed",
-                      "duration": 2798,
+                      "duration": 2613,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-14T16:55:10.555Z",
+                      "startTime": "2025-08-19T19:15:57.862Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -297,7 +297,7 @@
               "id": "ae1acdca87af11bd9707-519b6ab215ca6396cf4a",
               "file": "baseFunction.spec.ts",
               "line": 48,
-              "column": 5
+              "column": 1
             },
             {
               "title": "007 - Пароль соответствует ожидаемому формату",
@@ -312,15 +312,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1264,
+                      "duration": 1434,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-14T16:55:13.367Z",
+                      "startTime": "2025-08-19T19:16:00.410Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -331,7 +331,7 @@
               "id": "ae1acdca87af11bd9707-b9c4e20108efe6d60dd6",
               "file": "baseFunction.spec.ts",
               "line": 56,
-              "column": 5
+              "column": 1
             },
             {
               "title": "008 - Появляется подтверждение, что скопировано",
@@ -346,10 +346,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
                       "status": "failed",
-                      "duration": 6342,
+                      "duration": 6323,
                       "error": {
                         "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('.tooltip')\nExpected pattern: \u001b[32m/Скопировано/i\u001b[39m\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.tooltip')\u001b[22m\n",
                         "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('.tooltip')\nExpected pattern: \u001b[32m/Скопировано/i\u001b[39m\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.tooltip')\u001b[22m\n\n    at C:\\Users\\Ангелина\\Desktop\\loginpasswordgenerator\\login-password_generator\\LPG_Autotest\\src\\ui\\tests\\baseFunction.spec.ts:73:25",
@@ -373,7 +373,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-14T16:55:13.382Z",
+                      "startTime": "2025-08-19T19:16:00.462Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -395,7 +395,7 @@
               "id": "ae1acdca87af11bd9707-9eb450ba5318886ffbb3",
               "file": "baseFunction.spec.ts",
               "line": 68,
-              "column": 5
+              "column": 1
             },
             {
               "title": "001 - Страница сайта успешно загружается",
@@ -413,12 +413,12 @@
                       "workerIndex": 6,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 2539,
+                      "duration": 2510,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-14T16:55:14.626Z",
+                      "startTime": "2025-08-19T19:16:01.504Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -429,7 +429,7 @@
               "id": "ae1acdca87af11bd9707-7d4b143565ecba4f29fc",
               "file": "baseFunction.spec.ts",
               "line": 6,
-              "column": 5
+              "column": 1
             },
             {
               "title": "002 - Генератор отображает поля для логина и пароля",
@@ -445,14 +445,14 @@
                   "results": [
                     {
                       "workerIndex": 7,
-                      "parallelIndex": 3,
+                      "parallelIndex": 4,
                       "status": "passed",
-                      "duration": 2495,
+                      "duration": 2148,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-14T16:55:14.670Z",
+                      "startTime": "2025-08-19T19:16:01.615Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -463,7 +463,7 @@
               "id": "ae1acdca87af11bd9707-f3b60cb5d4a324f3b5b0",
               "file": "baseFunction.spec.ts",
               "line": 12,
-              "column": 5
+              "column": 1
             },
             {
               "title": "003 - Есть кнопка генерации логина",
@@ -479,14 +479,14 @@
                   "results": [
                     {
                       "workerIndex": 8,
-                      "parallelIndex": 5,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2727,
+                      "duration": 2368,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-14T16:55:14.716Z",
+                      "startTime": "2025-08-19T19:16:01.644Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -497,7 +497,7 @@
               "id": "ae1acdca87af11bd9707-40b5a98db4caf5652846",
               "file": "baseFunction.spec.ts",
               "line": 19,
-              "column": 5
+              "column": 1
             },
             {
               "title": "004 - Есть кнопка генерации пароля",
@@ -513,14 +513,14 @@
                   "results": [
                     {
                       "workerIndex": 9,
-                      "parallelIndex": 4,
+                      "parallelIndex": 5,
                       "status": "passed",
-                      "duration": 2609,
+                      "duration": 2861,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-14T16:55:14.751Z",
+                      "startTime": "2025-08-19T19:16:01.736Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -531,7 +531,7 @@
               "id": "ae1acdca87af11bd9707-a0ba2995b57a92cce3e8",
               "file": "baseFunction.spec.ts",
               "line": 25,
-              "column": 5
+              "column": 1
             },
             {
               "title": "005 - При нажатии на кнопку генерируются новые логин и пароль",
@@ -547,14 +547,14 @@
                   "results": [
                     {
                       "workerIndex": 10,
-                      "parallelIndex": 2,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 2926,
+                      "duration": 2810,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-14T16:55:15.857Z",
+                      "startTime": "2025-08-19T19:16:02.843Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -565,7 +565,7 @@
               "id": "ae1acdca87af11bd9707-8b0f4f71cd2b0da964bb",
               "file": "baseFunction.spec.ts",
               "line": 31,
-              "column": 5
+              "column": 1
             },
             {
               "title": "006 - Логин соответствует ожидаемому формату",
@@ -581,14 +581,14 @@
                   "results": [
                     {
                       "workerIndex": 7,
-                      "parallelIndex": 3,
+                      "parallelIndex": 4,
                       "status": "passed",
-                      "duration": 1721,
+                      "duration": 1662,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-14T16:55:17.699Z",
+                      "startTime": "2025-08-19T19:16:04.315Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -599,7 +599,7 @@
               "id": "ae1acdca87af11bd9707-63cfa7e28aa749fdd61f",
               "file": "baseFunction.spec.ts",
               "line": 48,
-              "column": 5
+              "column": 1
             },
             {
               "title": "007 - Пароль соответствует ожидаемому формату",
@@ -614,15 +614,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 6,
-                      "parallelIndex": 1,
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1782,
+                      "duration": 1695,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-14T16:55:18.266Z",
+                      "startTime": "2025-08-19T19:16:05.007Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -633,7 +633,7 @@
               "id": "ae1acdca87af11bd9707-8c95553cab5ea762862e",
               "file": "baseFunction.spec.ts",
               "line": 56,
-              "column": 5
+              "column": 1
             },
             {
               "title": "008 - Появляется подтверждение, что скопировано",
@@ -648,10 +648,10 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 9,
-                      "parallelIndex": 4,
+                      "workerIndex": 6,
+                      "parallelIndex": 1,
                       "status": "failed",
-                      "duration": 6695,
+                      "duration": 6747,
                       "error": {
                         "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('.tooltip')\nExpected pattern: \u001b[32m/Скопировано/i\u001b[39m\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.tooltip')\u001b[22m\n",
                         "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('.tooltip')\nExpected pattern: \u001b[32m/Скопировано/i\u001b[39m\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.tooltip')\u001b[22m\n\n    at C:\\Users\\Ангелина\\Desktop\\loginpasswordgenerator\\login-password_generator\\LPG_Autotest\\src\\ui\\tests\\baseFunction.spec.ts:73:25",
@@ -675,7 +675,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-14T16:55:18.920Z",
+                      "startTime": "2025-08-19T19:16:05.632Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -697,7 +697,7 @@
               "id": "ae1acdca87af11bd9707-8936e91b5bd0e211b2b2",
               "file": "baseFunction.spec.ts",
               "line": 68,
-              "column": 5
+              "column": 1
             },
             {
               "title": "001 - Страница сайта успешно загружается",
@@ -712,15 +712,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 12,
-                      "parallelIndex": 3,
+                      "workerIndex": 11,
+                      "parallelIndex": 4,
                       "status": "passed",
-                      "duration": 959,
+                      "duration": 1706,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-14T16:55:21.777Z",
+                      "startTime": "2025-08-19T19:16:08.404Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -731,7 +731,7 @@
               "id": "ae1acdca87af11bd9707-75ac75cf40a8d4a30eb8",
               "file": "baseFunction.spec.ts",
               "line": 6,
-              "column": 5
+              "column": 1
             },
             {
               "title": "002 - Генератор отображает поля для логина и пароля",
@@ -749,12 +749,12 @@
                       "workerIndex": 13,
                       "parallelIndex": 5,
                       "status": "passed",
-                      "duration": 928,
+                      "duration": 1661,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-14T16:55:21.970Z",
+                      "startTime": "2025-08-19T19:16:08.792Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -765,7 +765,7 @@
               "id": "ae1acdca87af11bd9707-9b8adfb4c4b87c75c191",
               "file": "baseFunction.spec.ts",
               "line": 12,
-              "column": 5
+              "column": 1
             },
             {
               "title": "003 - Есть кнопка генерации логина",
@@ -780,15 +780,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 11,
+                      "workerIndex": 14,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1234,
+                      "duration": 1606,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-14T16:55:21.455Z",
+                      "startTime": "2025-08-19T19:16:08.949Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -799,7 +799,7 @@
               "id": "ae1acdca87af11bd9707-27e3975e76198ab725d6",
               "file": "baseFunction.spec.ts",
               "line": 19,
-              "column": 5
+              "column": 1
             },
             {
               "title": "004 - Есть кнопка генерации пароля",
@@ -814,15 +814,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 14,
-                      "parallelIndex": 1,
+                      "workerIndex": 12,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 890,
+                      "duration": 1692,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-14T16:55:22.127Z",
+                      "startTime": "2025-08-19T19:16:08.419Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -833,7 +833,7 @@
               "id": "ae1acdca87af11bd9707-5798abf80509e91b18c7",
               "file": "baseFunction.spec.ts",
               "line": 25,
-              "column": 5
+              "column": 1
             },
             {
               "title": "005 - При нажатии на кнопку генерируются новые логин и пароль",
@@ -849,14 +849,14 @@
                   "results": [
                     {
                       "workerIndex": 15,
-                      "parallelIndex": 2,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1677,
+                      "duration": 2070,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-14T16:55:22.482Z",
+                      "startTime": "2025-08-19T19:16:09.212Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -867,7 +867,7 @@
               "id": "ae1acdca87af11bd9707-8c83518163f06e027139",
               "file": "baseFunction.spec.ts",
               "line": 31,
-              "column": 5
+              "column": 1
             },
             {
               "title": "006 - Логин соответствует ожидаемому формату",
@@ -883,14 +883,14 @@
                   "results": [
                     {
                       "workerIndex": 12,
-                      "parallelIndex": 3,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1257,
+                      "duration": 1629,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-14T16:55:22.800Z",
+                      "startTime": "2025-08-19T19:16:10.209Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -901,7 +901,7 @@
               "id": "ae1acdca87af11bd9707-3aa9467b9d02f972cb48",
               "file": "baseFunction.spec.ts",
               "line": 48,
-              "column": 5
+              "column": 1
             },
             {
               "title": "007 - Пароль соответствует ожидаемому формату",
@@ -917,14 +917,14 @@
                   "results": [
                     {
                       "workerIndex": 11,
-                      "parallelIndex": 0,
+                      "parallelIndex": 4,
                       "status": "passed",
-                      "duration": 1757,
+                      "duration": 2197,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-14T16:55:22.805Z",
+                      "startTime": "2025-08-19T19:16:10.222Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -935,7 +935,7 @@
               "id": "ae1acdca87af11bd9707-19b553fad4d13fc6a4b8",
               "file": "baseFunction.spec.ts",
               "line": 56,
-              "column": 5
+              "column": 1
             },
             {
               "title": "008 - Появляется подтверждение, что скопировано",
@@ -953,7 +953,7 @@
                       "workerIndex": 13,
                       "parallelIndex": 5,
                       "status": "failed",
-                      "duration": 6040,
+                      "duration": 6657,
                       "error": {
                         "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('.tooltip')\nExpected pattern: \u001b[32m/Скопировано/i\u001b[39m\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.tooltip')\u001b[22m\n",
                         "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('.tooltip')\nExpected pattern: \u001b[32m/Скопировано/i\u001b[39m\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.tooltip')\u001b[22m\n\n    at C:\\Users\\Ангелина\\Desktop\\loginpasswordgenerator\\login-password_generator\\LPG_Autotest\\src\\ui\\tests\\baseFunction.spec.ts:73:25",
@@ -977,7 +977,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-14T16:55:23.045Z",
+                      "startTime": "2025-08-19T19:16:10.512Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -999,7 +999,7 @@
               "id": "ae1acdca87af11bd9707-3bae2679f9958de1598c",
               "file": "baseFunction.spec.ts",
               "line": 68,
-              "column": 5
+              "column": 1
             }
           ]
         }
@@ -1008,8 +1008,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-08-14T16:55:09.268Z",
-    "duration": 19856.23,
+    "startTime": "2025-08-19T19:15:56.593Z",
+    "duration": 20617.000999999997,
     "expected": 21,
     "skipped": 0,
     "unexpected": 3,
