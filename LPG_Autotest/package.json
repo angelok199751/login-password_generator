@@ -15,7 +15,7 @@
     "deploy:allure": "node deployAllureToGit.js",
     "test:json": "npx playwright test --reporter=json | tee test-results.json",
     "notify": "node sendTelegram.js",
-    "full-docker-deploy": "npm run test:docker && npm run test:json && npm run allure:generate && npm run deploy:allure && npm run notify"
+    "fdd": "npm run test:docker && npm run test:json && npm run allure:generate && npm run deploy:allure && npm run notify"
   },
   "keywords": [],
   "author": "",

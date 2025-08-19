@@ -111,12 +111,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2701,
+                      "duration": 3173,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-19T19:15:57.827Z",
+                      "startTime": "2025-08-19T19:44:09.032Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -145,12 +145,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 2573,
+                      "duration": 3189,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-19T19:15:57.811Z",
+                      "startTime": "2025-08-19T19:44:08.981Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -179,12 +179,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 2494,
+                      "duration": 3197,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-19T19:15:57.843Z",
+                      "startTime": "2025-08-19T19:44:09.031Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -213,12 +213,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 2423,
+                      "duration": 3287,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-19T19:15:57.844Z",
+                      "startTime": "2025-08-19T19:44:09.031Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -247,12 +247,12 @@
                       "workerIndex": 4,
                       "parallelIndex": 4,
                       "status": "passed",
-                      "duration": 2559,
+                      "duration": 3263,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-19T19:15:57.841Z",
+                      "startTime": "2025-08-19T19:44:09.031Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -281,12 +281,12 @@
                       "workerIndex": 5,
                       "parallelIndex": 5,
                       "status": "passed",
-                      "duration": 2613,
+                      "duration": 3106,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-19T19:15:57.862Z",
+                      "startTime": "2025-08-19T19:44:09.053Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -312,15 +312,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1434,
+                      "duration": 1441,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-19T19:16:00.410Z",
+                      "startTime": "2025-08-19T19:44:12.265Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -346,10 +346,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
                       "status": "failed",
-                      "duration": 6323,
+                      "duration": 6221,
                       "error": {
                         "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('.tooltip')\nExpected pattern: \u001b[32m/Скопировано/i\u001b[39m\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.tooltip')\u001b[22m\n",
                         "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('.tooltip')\nExpected pattern: \u001b[32m/Скопировано/i\u001b[39m\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.tooltip')\u001b[22m\n\n    at C:\\Users\\Ангелина\\Desktop\\loginpasswordgenerator\\login-password_generator\\LPG_Autotest\\src\\ui\\tests\\baseFunction.spec.ts:73:25",
@@ -373,7 +373,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-19T19:16:00.462Z",
+                      "startTime": "2025-08-19T19:44:12.332Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -411,14 +411,14 @@
                   "results": [
                     {
                       "workerIndex": 6,
-                      "parallelIndex": 1,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 2510,
+                      "duration": 2632,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-19T19:16:01.504Z",
+                      "startTime": "2025-08-19T19:44:13.341Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -445,14 +445,14 @@
                   "results": [
                     {
                       "workerIndex": 7,
-                      "parallelIndex": 4,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2148,
+                      "duration": 2276,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-19T19:16:01.615Z",
+                      "startTime": "2025-08-19T19:44:13.374Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -479,14 +479,14 @@
                   "results": [
                     {
                       "workerIndex": 8,
-                      "parallelIndex": 0,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 2368,
+                      "duration": 2305,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-19T19:16:01.644Z",
+                      "startTime": "2025-08-19T19:44:13.373Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -513,14 +513,14 @@
                   "results": [
                     {
                       "workerIndex": 9,
-                      "parallelIndex": 5,
+                      "parallelIndex": 4,
                       "status": "passed",
-                      "duration": 2861,
+                      "duration": 2524,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-19T19:16:01.736Z",
+                      "startTime": "2025-08-19T19:44:13.418Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -547,14 +547,14 @@
                   "results": [
                     {
                       "workerIndex": 10,
-                      "parallelIndex": 3,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 2810,
+                      "duration": 2631,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-19T19:16:02.843Z",
+                      "startTime": "2025-08-19T19:44:14.665Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -581,14 +581,14 @@
                   "results": [
                     {
                       "workerIndex": 7,
-                      "parallelIndex": 4,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1662,
+                      "duration": 1919,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-19T19:16:04.315Z",
+                      "startTime": "2025-08-19T19:44:16.210Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -614,15 +614,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 8,
-                      "parallelIndex": 0,
+                      "workerIndex": 6,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1695,
+                      "duration": 1815,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-19T19:16:05.007Z",
+                      "startTime": "2025-08-19T19:44:17.058Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -648,10 +648,10 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 6,
-                      "parallelIndex": 1,
+                      "workerIndex": 8,
+                      "parallelIndex": 3,
                       "status": "failed",
-                      "duration": 6747,
+                      "duration": 6520,
                       "error": {
                         "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('.tooltip')\nExpected pattern: \u001b[32m/Скопировано/i\u001b[39m\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.tooltip')\u001b[22m\n",
                         "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('.tooltip')\nExpected pattern: \u001b[32m/Скопировано/i\u001b[39m\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.tooltip')\u001b[22m\n\n    at C:\\Users\\Ангелина\\Desktop\\loginpasswordgenerator\\login-password_generator\\LPG_Autotest\\src\\ui\\tests\\baseFunction.spec.ts:73:25",
@@ -675,7 +675,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-19T19:16:05.632Z",
+                      "startTime": "2025-08-19T19:44:17.183Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -715,12 +715,12 @@
                       "workerIndex": 11,
                       "parallelIndex": 4,
                       "status": "passed",
-                      "duration": 1706,
+                      "duration": 1455,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-19T19:16:08.404Z",
+                      "startTime": "2025-08-19T19:44:19.812Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -747,14 +747,14 @@
                   "results": [
                     {
                       "workerIndex": 13,
-                      "parallelIndex": 5,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1661,
+                      "duration": 1334,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-19T19:16:08.792Z",
+                      "startTime": "2025-08-19T19:44:19.990Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -781,14 +781,14 @@
                   "results": [
                     {
                       "workerIndex": 14,
-                      "parallelIndex": 0,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1606,
+                      "duration": 1316,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-19T19:16:08.949Z",
+                      "startTime": "2025-08-19T19:44:20.325Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -815,14 +815,14 @@
                   "results": [
                     {
                       "workerIndex": 12,
-                      "parallelIndex": 2,
+                      "parallelIndex": 5,
                       "status": "passed",
-                      "duration": 1692,
+                      "duration": 1389,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-19T19:16:08.419Z",
+                      "startTime": "2025-08-19T19:44:19.846Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -849,14 +849,14 @@
                   "results": [
                     {
                       "workerIndex": 15,
-                      "parallelIndex": 3,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 2070,
+                      "duration": 2108,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-19T19:16:09.212Z",
+                      "startTime": "2025-08-19T19:44:20.515Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -883,14 +883,14 @@
                   "results": [
                     {
                       "workerIndex": 12,
-                      "parallelIndex": 2,
+                      "parallelIndex": 5,
                       "status": "passed",
-                      "duration": 1629,
+                      "duration": 1588,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-19T19:16:10.209Z",
+                      "startTime": "2025-08-19T19:44:21.289Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -919,12 +919,12 @@
                       "workerIndex": 11,
                       "parallelIndex": 4,
                       "status": "passed",
-                      "duration": 2197,
+                      "duration": 2090,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-19T19:16:10.222Z",
+                      "startTime": "2025-08-19T19:44:21.320Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -951,9 +951,9 @@
                   "results": [
                     {
                       "workerIndex": 13,
-                      "parallelIndex": 5,
+                      "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 6657,
+                      "duration": 6472,
                       "error": {
                         "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('.tooltip')\nExpected pattern: \u001b[32m/Скопировано/i\u001b[39m\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.tooltip')\u001b[22m\n",
                         "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('.tooltip')\nExpected pattern: \u001b[32m/Скопировано/i\u001b[39m\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.tooltip')\u001b[22m\n\n    at C:\\Users\\Ангелина\\Desktop\\loginpasswordgenerator\\login-password_generator\\LPG_Autotest\\src\\ui\\tests\\baseFunction.spec.ts:73:25",
@@ -977,7 +977,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-19T19:16:10.512Z",
+                      "startTime": "2025-08-19T19:44:21.484Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1008,8 +1008,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-08-19T19:15:56.593Z",
-    "duration": 20617.000999999997,
+    "startTime": "2025-08-19T19:44:07.977Z",
+    "duration": 20011.853000000003,
     "expected": 21,
     "skipped": 0,
     "unexpected": 3,
